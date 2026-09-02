@@ -4,7 +4,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
-    gemini_api_key: str = "AQ.Ab8RN6I81gppvyQUHy3FhUoyfBFGrEkWwSnFxjL8X0e86GN19Q"
+
+    gemini_api_key: str = ""
     gemini_model: str = "gemini-3.6-flash"
     replicate_api_token: str = ""
     # Free, key-less AI image generation (Flux-backed) used when no Replicate
