@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+aiosqlite
+pydantic
+pydantic-settings
+python-dotenv
+langchain
+langchain-google-genai
+langgraph
+langgraph-checkpoint
+anthropic
+pillow
+python-multipart
+websockets
+httpx
